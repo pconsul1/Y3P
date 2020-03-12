@@ -1,5 +1,5 @@
-# Y3P
-Yelp Restaurant Review Rating Prediction
+# Y3RP- Yelp Restaurant Review Rating Prediction
+
 We work on the Yelp Dataset to predict ratings and sentiments (positive and negative) for restaurant reviews. There are 1 million reviews written in free text making the problem challenging. Our project
 explores two main ideas, first, performance of CNNs for text classification. We show that a CNN model works at par with LSTMs traditionally used for text classication tasks specifically rating prediction in the
 context of this project. Secondly for the sentiment classification task we use only the aspect descriptors.This method works at par with using the entire review for CNNs.
