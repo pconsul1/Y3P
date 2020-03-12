@@ -1,11 +1,11 @@
 # Y3P
 Yelp Restaurant Review Rating Prediction
 We work on the Yelp Dataset to predict ratings and sentiments (positive and negative) for restaurant reviews. There are 1 million reviews written in free text making the problem challenging. Our project
-explores two main ideas, first, performance of CNNs for text classication. We show that a CNN model works at par with LSTMs traditionally used for text classication tasks specifically rating prediction in the
+explores two main ideas, first, performance of CNNs for text classification. We show that a CNN model works at par with LSTMs traditionally used for text classication tasks specifically rating prediction in the
 context of this project. Secondly for the sentiment classification task we use only the aspect descriptors.This method works at par with using the entire review for CNNs.
 
 
-In this project we proposed using adjectives as descriptors. We use CNN for text classication and compare
+In this project we proposed using adjectives as descriptors. We use CNN for text classification and compare
 the results with our LSTM and Naive Bayes baselines. We perform these tests for both rating prediction and
 sentiment classification task. Secondly we propose a method utilizing adjectives as descriptors for aspects.
 We propose this approach primarily for sentiment classifcation. Based on the results from the previous
@@ -14,8 +14,8 @@ section following conclusions can be drawn -
 This can be attributed to the fact that the the language of the review as a whole is more deterministic
 for identifying the subtlety in the ratings.
  CNN models are performing as good as LSTM model for rating prediction for multiclass using entire
-review and using adjectives for binary classication task. Thus CNN due to their ability for extracting
-n-gram features at different positions of a sentence through convolution lters are able to work well on
+review and using adjectives for binary classification task. Thus CNN due to their ability for extracting
+n-gram features at different positions of a sentence through convolution filters are able to work well on
 this problem.
  Using adjectives embeddings to learn the sentiment works at par in terms of accuracy using the entire
 review comment for CNNs. This is because the feature engineering process prior to training the model enables 
