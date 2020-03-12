@@ -4,6 +4,7 @@ We work on the Yelp Dataset to predict ratings and sentiments (positive and nega
 explores two main ideas, first, performance of CNNs for text classification. We show that a CNN model works at par with LSTMs traditionally used for text classication tasks specifically rating prediction in the
 context of this project. Secondly for the sentiment classification task we use only the aspect descriptors.This method works at par with using the entire review for CNNs.
 
+## Findings and Conclusion
 
 In this project we proposed using adjectives as descriptors. We use CNN for text classification and compare
 the results with our LSTM and Naive Bayes baselines. We perform these tests for both rating prediction and
