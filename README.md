@@ -28,9 +28,9 @@ Some additional observations that can be made are as follows -<br>
 binary classification task. LSTMs are learning the dependencies between the aspect and descriptors as
 well as learning the long term dependencies capturing the entire semantics of the sentence.
 - The experiments suggest that altough using adjectives works as good as using the entire reviews for
-sentiment classification, for LSTMs the accuracy improves by a signicant amount. For both unbalances
+sentiment classification, for LSTMs the accuracy improves by a significant amount. For both unbalances
 and balances datasets the improvement in accuracy is about 6% which on a test set size of 200,000
-reviews essentially means that 12,000 more being correctly classied than before.
+reviews essentially means that 12,000 more being correctly classified than before.
 - For problems with class imbalance if the model is not properly tuned deep learning models no matter
 how complex tend to predict the majority class.
 - From the distribution of ratings for restaurants it can be observed that people rated restaurants
